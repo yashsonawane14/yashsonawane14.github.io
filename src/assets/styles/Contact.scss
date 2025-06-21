@@ -18,15 +18,14 @@
     color: white;
   }
 
-  .contact-form input,
-  .contact-form textarea,
-  .contact-form .MuiInputBase-input {
-    color: white !important;
+  .MuiInputBase-input,
+  .MuiInputBase-root input,
+  .MuiInputBase-root textarea {
+    color: white;
   }
 
-  .contact-form label,
-  .contact-form .MuiFormLabel-root {
-    color: white !important;
+  .MuiFormLabel-root {
+    color: white;
   }
 
 }
