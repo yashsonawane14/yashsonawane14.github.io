@@ -7,6 +7,24 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-size: 1.1rem !important;
 }
+.download-btn button {
+  background-color: #000;
+  color: #fff;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+
+}
+
+.download-btn button:hover {
+  background-color: #fff;
+  color: #000;
+  border-color: #000;}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace !important;
@@ -144,6 +162,21 @@ p, a, h1, h2, h3, h4, h5, label, button {
   .flex-chips .chip-title {
     color: #0d1116;
   }
+
+  .download-btn button {
+    background-color: #fff !important;
+    color: #000 !important;
+    border: 2px solid #000 !important;
+  }
+
+  .download-btn button:hover {
+    background-color: #000 !important;
+    color: #fff !important;
+    border-color: #000 !important;
+  }
+
+
+
 }
 
 @media screen {
