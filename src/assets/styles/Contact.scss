@@ -18,9 +18,17 @@
     color: white;
   }
 
-  .MuiOutlinedInput-notchedOutline {
-    background-color: white;
+  .contact-form input,
+  .contact-form textarea,
+  .contact-form .MuiInputBase-input {
+    color: white !important;
   }
+
+  .contact-form label,
+  .contact-form .MuiFormLabel-root {
+    color: white !important;
+  }
+
 }
 
 label {
