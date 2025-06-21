@@ -18,16 +18,31 @@
     color: white;
   }
 
-  .MuiInputBase-input,
-  .MuiInputBase-root input,
-  .MuiInputBase-root textarea {
-    color: white;
+  // Dark mode styling
+  .dark-mode & {
+    .MuiInputBase-input,
+    .MuiInputBase-root input,
+    .MuiInputBase-root textarea {
+      color: white !important;
+    }
+
+    .MuiFormLabel-root {
+      color: white !important;
+    }
   }
 
-  .MuiFormLabel-root {
-    color: white;
-  }
+  // Light mode styling
+  .light-mode & {
+    .MuiInputBase-input,
+    .MuiInputBase-root input,
+    .MuiInputBase-root textarea {
+      color: #050f0b !important;
+    }
 
+    .MuiFormLabel-root {
+      color: #050f0b !important;
+    }
+  }
 }
 
 label {
